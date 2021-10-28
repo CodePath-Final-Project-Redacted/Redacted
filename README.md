@@ -85,6 +85,16 @@ https://www.figma.com/file/M0EpPJyfmfoPNTb9Kyem7X/WireFrame-for-Redacted?node-id
 
 [Add table of models]
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+Profile
+(Update/PUT) Update user profile
+Camera
+(Create/POST) - take picture to send to someone
+
+Chats
+(Create/POST) - make new contact
+(Create/POST) - create post 
+(Read/GET) - post
+(Read/GET) - contact
+(DELETE) - delete chat
+(Update/PUT) Update contact profile
+
