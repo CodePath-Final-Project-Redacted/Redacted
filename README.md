@@ -74,7 +74,15 @@ https://www.figma.com/file/M0EpPJyfmfoPNTb9Kyem7X/WireFrame-for-Redacted?node-id
 
 ## Schema 
 [This section will be completed in Unit 9]
-### Models
+| Property | Type | Description |
+| ------------ | ------- | ------------------------------------------- |
+| username | String | Username for the user to chat |
+| image | File | Image that user can send to chat |
+| date | DateTime | The date when the message was sent |
+| message | String | The text message user can send to chat |
+| countdown | Time | The time left before the message redacts |
+
+
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
